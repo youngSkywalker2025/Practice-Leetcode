@@ -3,6 +3,9 @@ Find the length of the list
 Normalize K by setting k = k mod n (incase k > n)
 Find the New Head
 Update Pointers
+
+Since we are creating a circular linked list and having the new end point to head we dont need the previous pointer to trail.
+if we want to rotate list by k that means move k element to the front of the list
 '''
 
 class ListNode:
@@ -28,7 +31,7 @@ def rotateRight(head, k):
     if k == 0:
         return head
 
-    # Step 3: Find the new tail (n - k - 1-th node) because length starts at 1 
+    # Step 3: Find the new tail length starts at 1
     new_tail_position = length - k - 1
     new_tail = head
     for _ in range(new_tail_position):
@@ -40,3 +43,11 @@ def rotateRight(head, k):
     current.next = head  # Connect tail to head to make it circular
 
     return new_head
+
+
+'''
+Rotating a List imagine a circular linked list 
+get the length 
+Normalize K incase k > n 
+locate 
+'''

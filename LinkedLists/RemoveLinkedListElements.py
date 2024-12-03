@@ -3,7 +3,8 @@ class ListNode:
         self.val = val
         self.next = next
 '''
-Two pointer technique 
+Two pointer technique:
+Linked list so operations require readjustment of pointers
 Have a previous pointer that trails current
 keep iterating as long as target not found
 if target found then skip the node to be removed by assigning previous.next = current.next   

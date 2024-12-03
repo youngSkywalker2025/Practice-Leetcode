@@ -40,3 +40,15 @@ def getIntersectionNode(headA, headB):
     while headA != headB:
         headA = headA.next
         headB = headB.next
+
+
+
+
+
+
+'''
+
+get lengths
+adjust length of the longer list
+traverse lists and find intersection 
+'''

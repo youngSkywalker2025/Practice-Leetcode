@@ -1,14 +1,6 @@
 '''
-Involves creating a deep copy of a special type of singly linked list where each node has two pointers
-
-Deep Copy: new list is entirely independent of the original list.
-basically No node in the new list points to any node in the original list.
-
-
-Approach:
-1. Copy nodes and insert into Original list
-2. Assign Random pointers for new nodes
-3. Restore the original list and extract the deep copy
+Goal is to create an entirely new list that replicates the structure and relationships of the original list.
+Deep copy: ensures the new list is independent of the original 
 '''
 
 
@@ -26,8 +18,8 @@ def copyRandomList(head):
     # Step 1: Create new nodes interleaved with original nodes
     current = head
     while current:
-        new_node = Node(current.val)  # Create a new node
-        new_node.next = current.next
+        new_node = Node(current.val)  # Create a new node with the current nodes value
+        new_node.next = current.next  # have it point to what current point to
         current.next = new_node
         current = new_node.next
 

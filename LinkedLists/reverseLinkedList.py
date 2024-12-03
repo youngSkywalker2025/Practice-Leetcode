@@ -13,7 +13,7 @@ class ListNode:
         self.value = value
         self.next = next
 
-
+# reversal of individual nodes in the linked list and return the new head of list
 def reverse_linked_list(head):
     prev = None
     current = head
@@ -27,6 +27,8 @@ def reverse_linked_list(head):
     return prev  # Prev is the new head of the reversed list
 
 
+# Base Case: When do you want it to terminate
+# Recursive Part: pass in the head node of list
 def reverse_linked_list_recursive(head):
     # Base case: if the list is empty or has one node, it's already reversed
     if not head or not head.next:

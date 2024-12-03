@@ -10,6 +10,7 @@ Stack plays the role of a temporary memory in the iterative inorder traversal
 * Maintaining Order: stack ensures visit the nodes in correct sequence
 """
 
+
 def inorder_traversal_iterative(root):
     result = []
     stack = []

@@ -36,4 +36,5 @@ def hasCycle(head):
         tortoise = tortoise.next
         hare = hare.next.next
     # pointing to the same node 
-    return True  #  Cycle has been detected
+    return True  # Cycle has been detected
+

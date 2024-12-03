@@ -14,3 +14,9 @@ def linked_list_to_array(head):
         current = current.next
 
     return result
+'''
+Traverse
+Append
+
+
+'''

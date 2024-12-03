@@ -1,6 +1,8 @@
 '''
 Using a Set: fast, but may not preserve order
 Using a Dictionary Keys: efficient and preserves order
+
+Using a loop and
 '''
 class ListNode:
     def __init__(self, val=0, next=None):

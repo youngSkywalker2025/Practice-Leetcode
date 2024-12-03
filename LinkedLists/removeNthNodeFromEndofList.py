@@ -1,4 +1,8 @@
 """
+Since linked list should know that operations for linked list require pointer adjustments
+removing a node will require a prev pointer
+Kth node from the end*
+
 Two-Pointer Approach:
 Key Idea: is to maintain the distance of N between the fast and slow pointer
 once fast pointer reaches last node

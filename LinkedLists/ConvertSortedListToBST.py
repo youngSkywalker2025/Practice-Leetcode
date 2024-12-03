@@ -50,3 +50,12 @@ def sortedListToBST(head):
         return root
 
     return convert_to_bst(head, None)
+
+'''
+Find middle of linked list:
+Convert to BST:
+    recursively construct left and right subtrees
+    
+
+
+'''

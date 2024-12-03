@@ -22,3 +22,10 @@ def create_frequency_linked_list(head):
 
     # Step 3: Return the head of the new linked list
     return dummy.next
+
+'''
+
+repeating elements linked list 
+find unique values insert into hash table as key and count as frequency 
+create a new linked list from the hash map 
+'''

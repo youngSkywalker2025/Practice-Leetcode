@@ -24,3 +24,5 @@ Another way would be to
 2. pop from heap k times -> each pop operation takes O(log N) and since need to pop k times -> O(n + k*log n) 
 The drawback is if we have a really large array, and K is lets say somewhere in the middle, we would have to do K pops 
 '''
+
+
